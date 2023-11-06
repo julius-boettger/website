@@ -70,6 +70,7 @@ footer {
 .link-icon, .link-spacer {
     image-rendering: optimizeQuality;
     width: 3.20rem;
+    height: 3.20rem;
     user-select: none;
 }
 
