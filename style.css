@@ -1,12 +1,12 @@
 /* font from https://github.com/tonsky/FiraCode */
 @font-face {
     font-family: FiraCode;
-    src: url(FiraCode/FiraCode-Regular.woff2);
+    src: url(fonts/FiraCode-Regular.woff2);
 }
 @font-face {
     font-family: FiraCode;
     font-weight: bold;
-    src: url(FiraCode/FiraCode-Bold.woff2);
+    src: url(fonts/FiraCode-Bold.woff2);
 }
 
 * {
