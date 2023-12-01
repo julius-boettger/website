@@ -1,17 +1,9 @@
-/* font from https://github.com/tonsky/FiraCode */
-@font-face {
-    font-family: FiraCode;
-    src: url(fonts/FiraCode-Regular.woff2);
-}
-@font-face {
-    font-family: FiraCode;
-    font-weight: bold;
-    src: url(fonts/FiraCode-Bold.woff2);
-}
+/* Fira Code font https://github.com/tonsky/FiraCode */
+@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
 
 * {
     color: #fff;
-    font-family: FiraCode;
+    font-family: "Fira Code";
     text-align: center;
     text-rendering: optimizeLegibility;
 }
