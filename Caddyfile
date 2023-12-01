@@ -1,4 +1,4 @@
-juliusboettger.com
-
-root * /var/www/website
-file_server
+www.juliusboettger.com, juliusboettger.com {
+	root * /var/www/website/root
+	file_server
+}
