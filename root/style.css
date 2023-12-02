@@ -42,6 +42,17 @@ footer {
     width: 13rem;
     margin: 30px 0;
     user-select: none;
+    transition: transform 500ms;
+    transition-delay: 50ms;
+}
+
+#logo:hover {
+    cursor: pointer;
+    transform: rotateY(180deg);
+}
+
+#logo:active {
+    transform: rotateX(180deg);
 }
 
 #title, #subtitle {
