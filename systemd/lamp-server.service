@@ -1,0 +1,15 @@
+[Unit]
+Description=lamp-server
+After=network.target network-online.target
+Requires=network-online.target
+
+[Service]
+Type=simple
+User=caddy
+Group=caddy
+ExecStart=/var/www/website/lamp/target/release/lamp-server
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
