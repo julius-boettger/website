@@ -1,0 +1,3 @@
+[submodule "lamp"]
+	path = lamp
+	url = https://github.com/julius-boettger/lamp-server-rust
