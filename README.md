@@ -3,3 +3,4 @@ This is the source code of my personal website currently running under [juliusbo
 
 ### Credit
 - [Fira Code font](https://github.com/tonsky/FiraCode)
+- Design inspired by [Kytelink](https://github.com/aleemrehmtulla/kytelink)
