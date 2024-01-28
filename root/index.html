@@ -35,9 +35,9 @@
             <span class="link-text">Favorite Software</span>
             <div class="link-spacer"></div>
         </a>
-        <a class="link" draggable="false" href="mailto:julius.btg@proton.me">
+        <a class="link" draggable="false" id="mail-link">
             <img class="link-icon" draggable="false" src="icons/mail.svg" alt="email icon"/>
-            <span class="link-text">julius.btg@proton.me</span>
+            <span class="link-text" id="mail-text">Loading...</span>
             <div class="link-spacer"></div>
         </a>
     </div>
@@ -50,6 +50,10 @@
         const resizeFooter = () => document.body.style.marginBottom = footerMargin + document.getElementById("footer").offsetHeight + "px";
         resizeFooter();
         window.addEventListener("resize", resizeFooter);
+        // inject mail
+        const mail = ("juliusDOT"+"btgATproton"+"DOTme").replace(/DOT/g, ".").replace(/AT/, "@");
+        document.getElementById("mail-link").href = "mailto:" + mail;
+        document.getElementById("mail-text").innerText = mail;
     </script>
 </body>
 </html>
