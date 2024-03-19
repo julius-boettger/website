@@ -1,9 +1,21 @@
-/* Fira Code font https://github.com/tonsky/FiraCode */
-@import url(https://cdn.jsdelivr.net/npm/firacode@6.2.0/distr/fira_code.css);
+/* JetBrains Mono NL font https://github.com/JetBrains/JetBrainsMono */
+@font-face {
+  font-family: "JetBrains Mono NL";
+  src: url("https://github.com/JetBrains/JetBrainsMono/raw/68685b56df8b0a5ec9bc677ca0e162bf6dcc355b/fonts/ttf/JetBrainsMonoNL-Regular.ttf");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "JetBrains Mono NL";
+  src: url("https://github.com/JetBrains/JetBrainsMono/raw/68685b56df8b0a5ec9bc677ca0e162bf6dcc355b/fonts/ttf/JetBrainsMonoNL-Bold.ttf");
+  font-weight: 700;
+  font-display: swap;
+}
 
 * {
+    /* popular fallbacks on different platforms */
+    font-family: "JetBrains Mono NL", Consolas, "DejaVu Sans Mono", Monaco, monospace;
     color: #fff;
-    font-family: "Fira Code";
     text-align: center;
     text-rendering: optimizeLegibility;
 }
