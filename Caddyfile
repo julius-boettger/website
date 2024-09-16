@@ -1,8 +1,0 @@
-www.juliusboettger.com, juliusboettger.com {
-	root * /var/www/website/root
-	file_server
-}
-
-lamp.juliusboettger.com {
-	reverse_proxy :9000
-}

@@ -17,7 +17,7 @@
       website = pkgs.stdenv.mkDerivation {
         name = "website";
 
-        src = ./root;
+        src = ./src;
 
         installPhase = ''
           runHook preInstall
